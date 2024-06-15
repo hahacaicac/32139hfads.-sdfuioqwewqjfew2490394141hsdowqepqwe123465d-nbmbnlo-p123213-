@@ -1,7 +1,7 @@
 import os
 try:
     import requests,colorama,prettytable
-except:
+except:python
     os.system("pip install requests")
     os.system("pip install colorama")
     os.system("pip install prettytable")
